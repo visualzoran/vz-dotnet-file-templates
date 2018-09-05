@@ -1,0 +1,13 @@
+{
+    "name" : "Class Library (.NET Core)",
+    "description" : "A project for creating a class library that targets .NET Core. This template uses 'dotnet new classlib' command to generate files.",
+    "defaultName" : "ClassLibrary.csproj",
+    "sortOrder" : "1200",
+    "category" : "Visual C#/.NET Core",
+    "iconLight" : "CSClassLibrary_Light.svg",
+    "iconDark" : "CSClassLibrary_Dark.svg",
+    "elements" : [],
+    "isProject" : true,
+    "command" : "dotnet",
+    "commandParameters" : ["new", "classlib", "-o", "$dirfullpath$", "-n", "$safeitemname$" ]
+}

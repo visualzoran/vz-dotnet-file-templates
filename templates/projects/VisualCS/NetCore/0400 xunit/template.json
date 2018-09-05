@@ -1,0 +1,13 @@
+{
+    "name" : "xUnit Test Project (.NET Core)",
+    "description" : "A project that contains xUnit.net tests that can run on .NET Core on Windows, Linux and MacOS. This template uses 'dotnet new xunit' command to generate files.",
+    "defaultName" : "XUnitTestProject",
+    "sortOrder" : "1400",
+    "category" : "Visual C#/.NET Core",
+    "iconLight" : "CSCodeTest_Light.svg",
+    "iconDark" : "CSCodeTest_Dark.svg",
+    "elements" : [],
+    "isProject" : true,
+    "command" : "dotnet",
+    "commandParameters" : ["new", "xunit", "-o", "$dirfullpath$", "-n", "$safeitemname$" ]
+}

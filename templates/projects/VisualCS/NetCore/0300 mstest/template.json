@@ -1,0 +1,13 @@
+{
+    "name" : "Unit Test Project (.NET Core)",
+    "description" : "A project that contains unit tests that can run on .NET Core on Windows, Linux and MacOS. This template uses 'dotnet new mstest' command to generate files.",
+    "defaultName" : "UnitTestProject",
+    "sortOrder" : "1300",
+    "category" : "Visual C#/.NET Core",
+    "iconLight" : "CSCodeTest_Light.svg",
+    "iconDark" : "CSCodeTest_Dark.svg",
+    "elements" : [],
+    "isProject" : true,
+    "command" : "dotnet",
+    "commandParameters" : ["new", "mstest", "-o", "$dirfullpath$", "-n", "$safeitemname$" ]
+}

@@ -1,0 +1,13 @@
+{
+    "name" : "ASP.NET Core Web Application with React.js",
+    "description" : "A project template for creating an ASP.NET Core application with React.js. Files are generated using 'dotnet new react' command",
+    "defaultName" : "Website",
+    "sortOrder" : "2200",
+    "category" : "Visual C#/.NET Core",
+    "iconLight" : "CSWebApplication_Light.svg",
+    "iconDark" : "CSWebApplication_Dark.svg",
+    "elements" : [],
+    "isProject" : true,
+    "command" : "dotnet",
+    "commandParameters" : ["new", "react", "-o", "$dirfullpath$", "-n", "$safeitemname$" ]
+}

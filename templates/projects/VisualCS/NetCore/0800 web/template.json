@@ -1,0 +1,13 @@
+{
+    "name" : "Empty ASP.NET Core Project",
+    "description" : "An empty project template for creating an ASP.NET Core application. This template does not have any content in it. Files are generated using 'dotnet new web' command",
+    "defaultName" : "Website",
+    "sortOrder" : "1800",
+    "category" : "Visual C#/.NET Core",
+    "iconLight" : "CSBlankWeb_Light.svg",
+    "iconDark" : "CSBlankWeb_Dark.svg",
+    "elements" : [],
+    "isProject" : true,
+    "command" : "dotnet",
+    "commandParameters" : ["new", "web", "-o", "$dirfullpath$", "-n", "$safeitemname$" ]
+}

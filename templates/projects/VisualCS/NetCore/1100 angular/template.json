@@ -1,0 +1,13 @@
+{
+    "name" : "ASP.NET Core Web Application with Angular",
+    "description" : "A project template for creating an ASP.NET Core application with Angular. Files are generated using 'dotnet new angular' command",
+    "defaultName" : "Website",
+    "sortOrder" : "2100",
+    "category" : "Visual C#/.NET Core",
+    "iconLight" : "CSWebApplication_Light.svg",
+    "iconDark" : "CSWebApplication_Dark.svg",
+    "elements" : [],
+    "isProject" : true,
+    "command" : "dotnet",
+    "commandParameters" : ["new", "angular", "-o", "$dirfullpath$", "-n", "$safeitemname$" ]
+}

@@ -1,0 +1,13 @@
+{
+    "name" : "Console Application (.NET Core)",
+    "description" : "A project for creating a command-line application that can run on .NET Core on Windows, Linux and MacOS. This template uses 'dotnet new console' command to generate files.",
+    "defaultName" : "ConsoleApp",
+    "sortOrder" : "1100",
+    "category" : "Visual C#/.NET Core",
+    "iconLight" : "CSConsole_Light.svg",
+    "iconDark" : "CSConsole_Dark.svg",
+    "elements" : [],
+    "isProject" : true,
+    "command" : "dotnet",
+    "commandParameters" : ["new", "console", "-o", "$dirfullpath$", "-n", "$safeitemname$" ]
+}

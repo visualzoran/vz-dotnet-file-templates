@@ -1,0 +1,13 @@
+{
+    "name" : "ASP.NET Core Web Application (Razor)",
+    "description" : "A project template for creating an ASP.NET Core application with example ASP.NET Core Razor Pages content. Files are generated using 'dotnet new razor' command",
+    "defaultName" : "Website",
+    "sortOrder" : "2100",
+    "category" : "Visual C#/.NET Core",
+    "iconLight" : "CSWebApplication_Light.svg",
+    "iconDark" : "CSWebApplication_Dark.svg",
+    "elements" : [],
+    "isProject" : true,
+    "command" : "dotnet",
+    "commandParameters" : ["new", "razor", "-o", "$dirfullpath$", "-n", "$safeitemname$" ]
+}

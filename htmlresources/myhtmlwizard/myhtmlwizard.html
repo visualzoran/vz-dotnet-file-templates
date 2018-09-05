@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <script src="##EXTENSIONPATH##/htmlresources/lib/jquery/jquery.min.js"></script>
+        <script src="##EXTENSIONPATH##/htmlresources/lib/jquery-ui/jquery-ui.min.js"></script>
+        <script src="##EXTENSIONPATH##/htmlresources/lib/wizards/wizards.js"></script>
+        <script src="##EXTENSIONPATH##/htmlresources/myhtmlwizard/js/myhtmlwizard.js"></script>
+        <link rel="stylesheet" type="text/css" href="##EXTENSIONPATH##/htmlresources/lib/jquery-ui/jquery-ui.min.css">
+        <link rel="stylesheet" type="text/css" href="##EXTENSIONPATH##/htmlresources/lib/wizards/wizards.css">
+        <link rel="stylesheet" type="text/css" href="##EXTENSIONPATH##/htmlresources/myhtmlwizard/css/myhtmlwizard.css">
+    </header>
+    <body>
+        <div id="main" class="main">
+            <div id="header" class="header">
+                <div class="title">My Html Sample Wizard</div>
+            </div>
+
+            <div id="wizardstep1" class="wizard">
+
+                <div class="formline">
+                    <div class="formheader">Welcome on first page of html sample wizard</div>
+                </div>
+                        
+                <div class="formline">
+                    <div class="formcaption">Page title:</div>
+                    <div class="formfield">
+                        <input type="text" id="fieldpagetitle" name="fieldpagetitle" class="fixedtext">
+                    </div>
+                </div>
+            </div>
+
+            <div id="wizardstep2" class="wizard">
+
+                <div class="formline">
+                    <div class="formheader">Please enter additional page details</div>
+                </div>
+
+                <div class="formline">
+                    <div class="formcaption">Column headers:</div>
+                    <div class="formfield">
+                        <input type="text" id="fieldcolumns" name="fieldcolumns" class="fixedtext">
+                    </div>
+                </div>
+
+                <div class="formline">
+                    <div class="formcaption">No. of rows:</div>
+                    <div class="formfield">
+                        <input type="text" id="fieldnoofrows" name="fieldnoofrows" class="fixedtext">
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="footer" class="footer">
+                <button id="prevBtn" class="button" onclick="wizard.onPrev()">Previous</button>
+                <button id="nextBtn" class="button" onclick="wizard.onNext()">Next</button>
+                <button id="finishBtn" class="button" onclick="wizard.onFinish()">Finish</button>
+                <button id="cancelBtn" class="button" onclick="wizard.onCancel()">Cancel</button>
+            </div>
+        </div>
+
+    </body>
+</html>

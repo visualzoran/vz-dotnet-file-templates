@@ -1,0 +1,13 @@
+{
+    "name" : "Web API",
+    "description" : "A project template for creating an ASP.NET Core application with an example Controller for RESTful HTTP service. This template can also be used for ASP.NET Core MVC Views and Controllers. Files are generated using 'dotnet new webapi' command",
+    "defaultName" : "Website",
+    "sortOrder" : "2400",
+    "category" : "Visual C#/.NET Core",
+    "iconLight" : "CSWebLibrary_Light.svg",
+    "iconDark" : "CSWebLibrary_Dark.svg",
+    "elements" : [],
+    "isProject" : true,
+    "command" : "dotnet",
+    "commandParameters" : ["new", "webapi", "-o", "$dirfullpath$", "-n", "$safeitemname$" ]
+}

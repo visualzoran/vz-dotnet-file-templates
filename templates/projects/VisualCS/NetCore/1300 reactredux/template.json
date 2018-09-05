@@ -1,0 +1,13 @@
+{
+    "name" : "ASP.NET Core Web Application with React.js and Redux",
+    "description" : "A project template for creating an ASP.NET Core application with React.js and Redux. Files are generated using 'dotnet new reactredux' command",
+    "defaultName" : "Website",
+    "sortOrder" : "2300",
+    "category" : "Visual C#/.NET Core",
+    "iconLight" : "CSWebApplication_Light.svg",
+    "iconDark" : "CSWebApplication_Dark.svg",
+    "elements" : [],
+    "isProject" : true,
+    "command" : "dotnet",
+    "commandParameters" : ["new", "reactredux", "-o", "$dirfullpath$", "-n", "$safeitemname$" ]
+}

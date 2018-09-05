@@ -1,0 +1,13 @@
+{
+    "name" : "Razor Class Library",
+    "description" : "A project template for creating a Razor class library. Files are generated using 'dotnet new razorclasslib' command",
+    "defaultName" : "ClassLibrary",
+    "sortOrder" : "2500",
+    "category" : "Visual C#/.NET Core",
+    "iconLight" : "CSWebLibrary_Light.svg",
+    "iconDark" : "CSWebLibrary_Dark.svg",
+    "elements" : [],
+    "isProject" : true,
+    "command" : "dotnet",
+    "commandParameters" : ["new", "razorclasslib", "-o", "$dirfullpath$", "-n", "$safeitemname$" ]
+}

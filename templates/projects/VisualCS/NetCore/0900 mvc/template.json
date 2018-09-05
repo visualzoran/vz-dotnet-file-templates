@@ -1,0 +1,13 @@
+{
+    "name" : "ASP.NET Core Web Application (Model-View-Controller)",
+    "description" : "A project template for creating an ASP.NET Core application with example ASP.NET Core MVC Views and Controllers. This template can also be used for RESTful HTTP Services. Files are generated using 'dotnet new mvc' command",
+    "defaultName" : "Website",
+    "sortOrder" : "1900",
+    "category" : "Visual C#/.NET Core",
+    "iconLight" : "CSWebApplication_Light.svg",
+    "iconDark" : "CSWebApplication_Dark.svg",
+    "elements" : [],
+    "isProject" : true,
+    "command" : "dotnet",
+    "commandParameters" : ["new", "mvc", "-o", "$dirfullpath$", "-n", "$safeitemname$" ]
+}
