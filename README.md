@@ -2,7 +2,7 @@
 
 ## Features
 
-This extension adds new .NET Core project and project item templates and wizards to template engine implemented in "VS File Templates" extension. As that engine allows to deliver multi-file templates inside another extension and also allows to call external commands after template finishes generating file, some of templates here are just wrappers around standard "dotnet new" command, but with visual wizards helping developer to enter their parameters. 
+This extension adds new .NET Core 2.1 project and project item templates and wizards to template engine implemented by "VS File Templates" extension. As that engine allows to deliver multi-file templates inside another extension and to call external commands after template finishes generating files, some of the templates here use standard "dotnet new" command. 
 
 ![New project with wizard](resources/NewProjectWizard.gif)
 

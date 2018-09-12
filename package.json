@@ -1,7 +1,7 @@
 {
     "name": "vz-dotnet-file-templates",
     "displayName": "VZ DotNet File Templates",
-    "description": "DotNet file templates and wizards for VZ File Templates extension",
+    "description": ".NET C# file and projects templates and wizards for VZ File Templates extension",
     "version": "0.0.1",
     "publisher": "visualzoran",
     "engines": {
@@ -17,10 +17,12 @@
     "repository": {
         "url": "https://github.com/visualzoran/vz-dotnet-file-templates"
     },
-    "license": "LICENSE",
+    "license": "MIT",
     "keywords": [
         "templates",
-        "file"
+        "file",
+        "dotnet",
+        "c#"
     ],
     "activationEvents": [
         "*"
