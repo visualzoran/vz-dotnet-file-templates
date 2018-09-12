@@ -6,6 +6,7 @@
     "category" : "Visual C#/.NET Core",
     "iconLight" : "CSWebApplication_Light.svg",
     "iconDark" : "CSWebApplication_Dark.svg",
+    "wizardName" : "vz-dotnet-templates.AspNetCoreWebsiteWizard",
     "elements" : [],
     "isProject" : true,
     "command" : "dotnet",

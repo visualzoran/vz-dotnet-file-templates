@@ -1,0 +1,15 @@
+{
+    "name" : "Razor Page Without Page Model",
+    "description" : "ASP.NET Core Razor page without page model. This template uses 'dotnet new page -np' command to generate files.",
+    "defaultName" : "MyPage.cshtml",
+    "sortOrder" : "3200",
+    "category" : ".NET/ASP.NET Core",
+    "iconLight" : "CSRazorFile_Light.svg",
+    "iconDark" : "CSRazorFile_Dark.svg",
+    "elements" : [],
+    "isProject" : false,
+    "command" : "dotnet",
+    "commandParameters" : ["new", "page", "-o", "$dirfullpath$", "-n", "$safeitemname$", "-na", "$rootnamespace$", "-np" ],
+    "openFiles" : ["$safeitemname$.cshtml"],
+    "settingsProcessors" : ["vzFileTemplates.dotNet"]    
+}

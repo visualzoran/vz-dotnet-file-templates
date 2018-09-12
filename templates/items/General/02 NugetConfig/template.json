@@ -1,0 +1,15 @@
+{
+    "name" : "NuGet Config",
+    "description" : ".NET Core NuGet Config file. This template uses 'dotnet new nugetconfig' command to generate files.",
+    "defaultName" : "nuget.config",
+    "sortOrder" : "4200",
+    "category" : ".NET/General",
+    "iconLight" : "ConfigurationFile_Light.svg",
+    "iconDark" : "ConfigurationFile_Dark.svg",
+    "elements" : [],
+    "isProject" : false,
+    "command" : "dotnet",
+    "commandParameters" : ["new", "nugetconfig", "-o", "$dirfullpath$" ],
+    "openFiles" : ["nuget.config"],
+    "settingsProcessors" : ["vzFileTemplates.dotNet"]    
+}

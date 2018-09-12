@@ -1,0 +1,15 @@
+{
+    "name" : "View Imports Page",
+    "description" : "ASP.NET Core View Imports page. This template uses 'dotnet new viewimports' command to generate files.",
+    "defaultName" : "_ViewImports.cshtml",
+    "sortOrder" : "3400",
+    "category" : ".NET/ASP.NET Core",
+    "iconLight" : "CSRazorFile_Light.svg",
+    "iconDark" : "CSRazorFile_Dark.svg",
+    "elements" : [],
+    "isProject" : false,
+    "command" : "dotnet",
+    "commandParameters" : ["new", "viewimports", "-o", "$dirfullpath$", "-n", "$safeitemname$" ],
+    "openFiles" : ["$safeitemname$.cshtml"],
+    "settingsProcessors" : ["vzFileTemplates.dotNet"]    
+}

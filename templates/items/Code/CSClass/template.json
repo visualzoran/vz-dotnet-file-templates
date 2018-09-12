@@ -1,0 +1,22 @@
+{
+    "name" : "Class",
+    "description" : "An empty class declaration",
+    "defaultName" : "Class.cs",
+    "sortOrder" : "1100",
+    "category" : ".NET/Code",
+    "iconLight" : "CSClassFile_Light.svg",
+    "iconDark" : "CSClassFile_Dark.svg",
+    "elements" : [
+        {
+            "fileName" : "file.txt",
+            "targetName" : "$itemname$.cs",
+            "replaceParameters" : true,
+            "open" : true
+        }        
+    ],
+    "isProject" : false,
+    "command" : "",
+    "commandParameters" : [],
+    "openFiles" : [],
+    "settingsProcessors" : ["vzFileTemplates.dotNet"]    
+}

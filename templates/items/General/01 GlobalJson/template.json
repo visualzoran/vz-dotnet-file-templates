@@ -1,0 +1,15 @@
+{
+    "name" : "Global Json File",
+    "description" : ".NET Core Global Json file. This template uses 'dotnet new globaljson' command to generate files.",
+    "defaultName" : "global.json",
+    "sortOrder" : "4100",
+    "category" : ".NET/General",
+    "iconLight" : "JSONFile_Light.svg",
+    "iconDark" : "JSONFile_Dark.svg",
+    "elements" : [],
+    "isProject" : false,
+    "command" : "dotnet",
+    "commandParameters" : ["new", "globaljson", "-o", "$dirfullpath$" ],
+    "openFiles" : ["global.json"],
+    "settingsProcessors" : ["vzFileTemplates.dotNet"]    
+}

@@ -24,6 +24,7 @@ body {
 .title {
     margin: 0px 10px;
     font-size: 20pt;
+    color: var(--vscode-panelTitle-activeForeground);
 }
 .footer {
     flex: 0 0 60px;
@@ -31,7 +32,6 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    border-top: 1px solid #303030;
 }
 .wizard {
     flex: 1 1 auto;
@@ -67,6 +67,9 @@ body {
 }
 .formcaption {
     flex: 0 0 200px;
+}
+.longformcaption {
+    flex: 0 0 300px;
 }
 .formfield {
     flex: 1 1 auto;
@@ -115,21 +118,24 @@ body {
 .mselcaption {
     flex: 0 0 26px;
 }
+.mselbtn, .button {
+    background-color: var(--vscode-button-background);
+    color: var(--vscode-button-foreground);
+    border: 0px solid var(--vscode-panel-border);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);    
+    font-family: var(--font-family);
+}
+.mselbtn:hover, .button:hover {
+    background-color: var(--vscode-button-hoverBackground);
+}
 .button {
     margin: 3px 6px 3px 0px;
-    padding: 3px;
     width: 80px;
+    padding:5px;
 }
-
-.vscode-dark input, .vscode-dark select {
-    background-color: #303030;
-    color: #d0d0d0;
-    border: 1px solid #404040;
-}
-
-.vscode-light input, .vscode-high-contrast input,
-.vscode-light select, .vscode-high-contrast select {
-    background-color: #ffffff;
-    color: #303030;
-    border: 1px solid #d0d0d0;
+input, select {
+    background: var(--vscode-input-background);
+    border: 1px solid var(--vscode-panel-border);
+    color: var(--vscode-input-foreground);
 }

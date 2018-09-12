@@ -45,6 +45,6 @@
         "@types/mocha": "^2.2.42"
     },
     "dependencies": {
-        "vz-file-templates": "0.0.7"
+        "vz-file-templates": "^1.0.1"
     }
 }

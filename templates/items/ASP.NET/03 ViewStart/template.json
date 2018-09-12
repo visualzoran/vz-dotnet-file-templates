@@ -1,0 +1,15 @@
+{
+    "name" : "View Start Page",
+    "description" : "ASP.NET Core View Start page. This template uses 'dotnet new viewstart' command to generate files.",
+    "defaultName" : "_ViewStart.cshtml",
+    "sortOrder" : "3300",
+    "category" : ".NET/ASP.NET Core",
+    "iconLight" : "CSRazorFile_Light.svg",
+    "iconDark" : "CSRazorFile_Dark.svg",
+    "elements" : [],
+    "isProject" : false,
+    "command" : "dotnet",
+    "commandParameters" : ["new", "viewstart", "-o", "$dirfullpath$", "-n", "$safeitemname$" ],
+    "openFiles" : ["$safeitemname$.cshtml"],
+    "settingsProcessors" : ["vzFileTemplates.dotNet"]    
+}

@@ -20,6 +20,20 @@ var wizardHelper = {
         }
     },
 
+    setElementOptionsWithCaptions : function (selector, values) {
+        $(selector).html("");
+        if (values) {
+            var options = [];
+            for (var i=0; i<values.length;i++) {
+                options.push($('<option>', {
+                value: values[i].value,
+                text : values[i].text
+                }));                    
+            }
+            $(selector).append(options);
+        }
+    },
+
     getSelectedElementOptions : function(selector) {
         var data = [];
         $(selector + " option:selected").each(function() {

@@ -1,0 +1,15 @@
+{
+    "name" : "Web Config File",
+    "description" : "ASP.NET Core Web Config file. This template uses 'dotnet new webconfig' command to generate files.",
+    "defaultName" : "web.config",
+    "sortOrder" : "3500",
+    "category" : ".NET/ASP.NET Core",
+    "iconLight" : "ConfigurationFile_Light.svg",
+    "iconDark" : "ConfigurationFile_Dark.svg",
+    "elements" : [],
+    "isProject" : false,
+    "command" : "dotnet",
+    "commandParameters" : ["new", "webconfig", "-o", "$dirfullpath$" ],
+    "openFiles" : ["web.config"],
+    "settingsProcessors" : ["vzFileTemplates.dotNet"]    
+}

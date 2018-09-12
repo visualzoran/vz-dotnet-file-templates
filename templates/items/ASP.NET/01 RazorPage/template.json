@@ -1,0 +1,15 @@
+{
+    "name" : "Razor Page",
+    "description" : "ASP.NET Core Razor page. This template uses 'dotnet new page' command to generate files.",
+    "defaultName" : "MyPage.cshtml",
+    "sortOrder" : "3100",
+    "category" : ".NET/ASP.NET Core",
+    "iconLight" : "CSRazorFile_Light.svg",
+    "iconDark" : "CSRazorFile_Dark.svg",
+    "elements" : [],
+    "isProject" : false,
+    "command" : "dotnet",
+    "commandParameters" : ["new", "page", "-o", "$dirfullpath$", "-n", "$safeitemname$", "-na", "$rootnamespace$" ],
+    "openFiles" : ["$safeitemname$.cshtml"],
+    "settingsProcessors" : ["vzFileTemplates.dotNet"]    
+}

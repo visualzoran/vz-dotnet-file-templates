@@ -2,14 +2,14 @@
 
 import * as vscode from 'vscode';
 import * as vzFileTemplates from 'vz-file-templates';
-import { MyHtmlWizardPage } from './myHtmlWizardPage';
+import { AspNetCoreWizardPage } from './aspNetCoreWizardPage';
 
-export class MyHtmlWizard implements vzFileTemplates.IProjectItemWizard {
+export class AspNetCoreWizard implements vzFileTemplates.IProjectItemWizard  {
     protected _name : string;
     protected _context : vscode.ExtensionContext;    
-
+    
     constructor(context : vscode.ExtensionContext) {
-        this._name = "vz.MyHtmlWizardDemo";
+        this._name = "vz-dotnet-templates.AspNetCoreWebsiteWizard";
         this._context = context;
     }
 
@@ -18,8 +18,8 @@ export class MyHtmlWizard implements vzFileTemplates.IProjectItemWizard {
     }
 
     run(template : vzFileTemplates.IProjectItemTemplate, settings : vzFileTemplates.IProjectItemTemplateRunSettings) {
-        let wizardPage = new MyHtmlWizardPage(this._context, template, settings);
+        let wizardPage = new AspNetCoreWizardPage(this._context, template, settings);
         wizardPage.show();
     }
 
-}
+} 

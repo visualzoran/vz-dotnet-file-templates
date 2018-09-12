@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <script src="##EXTENSIONPATH##/htmlresources/lib/jquery/jquery.min.js"></script>
+        <script src="##EXTENSIONPATH##/htmlresources/lib/jquery-ui/jquery-ui.min.js"></script>
+        <script src="##EXTENSIONPATH##/htmlresources/lib/wizards/wizards.js"></script>
+        <script src="##EXTENSIONPATH##/htmlresources/aspnetprojectwizard/js/aspnetprojectwizard.js"></script>
+        <link rel="stylesheet" type="text/css" href="##EXTENSIONPATH##/htmlresources/lib/jquery-ui/jquery-ui.min.css">
+        <link rel="stylesheet" type="text/css" href="##EXTENSIONPATH##/htmlresources/lib/wizards/wizards.css">
+        <link rel="stylesheet" type="text/css" href="##EXTENSIONPATH##/htmlresources/aspnetprojectwizard/css/aspnetprojectwizard.css">
+    </header>
+    <body>
+        <div id="main" class="main">
+            <div id="header" class="header">
+                <div class="title">New ASP.Net Core Project</div>
+            </div>
+
+            <div id="wizardstep1" class="wizard">
+
+                <div class="formline" id="lnauth">
+                    <div class="longformcaption">Authentication</div>
+                    <div class="formfield">
+                        <select id="auth" class="fixedopt" onchange="wizard.onAuthTypeChanged()">
+                        </select>
+                    </div>
+                </div>
+        
+                <div class="formline" id="lnaadb2cinstance">
+                    <div class="longformcaption">Azure Active Directory B2C instance:</div>
+                    <div class="formfield">
+                        <input type="text" id="aadb2cinstance" name="aadb2cinstance" class="fulltext">
+                    </div>
+                </div>
+    
+                <div class="formline" id="lnsusipolicyid">
+                    <div class="longformcaption">Sign-in and sign-up policy ID:</div>
+                    <div class="formfield">
+                        <input type="text" id="susipolicyid" name="susipolicyid" class="fulltext">
+                    </div>
+                </div>
+
+                <div class="formline" id="lnresetpasswordpolicyid">
+                    <div class="longformcaption">Reset password policy ID:</div>
+                    <div class="formfield">
+                        <input type="text" id="resetpasswordpolicyid" name="resetpasswordpolicyid" class="fulltext">
+                    </div>
+                </div>
+                    
+                <div class="formline" id="lneditprofilepolicyid">
+                    <div class="longformcaption">Edit profile policy ID:</div>
+                    <div class="formfield">
+                        <input type="text" id="editprofilepolicyid" name="editprofilepolicyid" class="fulltext">
+                    </div>
+                </div>
+    
+                <div class="formline" id="lnaadinstance">
+                    <div class="longformcaption">Azure Active Directory instance:</div>
+                    <div class="formfield">
+                        <input type="text" id="aadinstance" name="aadinstance" class="fulltext">
+                    </div>
+                </div>
+
+                <div class="formline" id="lnclientid">
+                    <div class="longformcaption">Client ID:</div>
+                    <div class="formfield">
+                        <input type="text" id="clientid" name="clientid" class="fulltext">
+                    </div>
+                </div>
+
+                <div class="formline" id="lndomain">
+                    <div class="longformcaption">Directory tenant domain:</div>
+                    <div class="formfield">
+                        <input type="text" id="domain" name="domain" class="fulltext">
+                    </div>
+                </div>
+
+                <div class="formline" id="lntenantid">
+                    <div class="longformcaption">Directory tenant ID:</div>
+                    <div class="formfield">
+                        <input type="text" id="tenantid" name="tenantid" class="fulltext">
+                    </div>
+                </div>
+
+                <div class="formline" id="lncallbackpath">
+                    <div class="longformcaption">Callback path:</div>
+                    <div class="formfield">
+                        <input type="text" id="callbackpath" name="callbackpath" class="fulltext">
+                    </div>
+                </div>
+
+                <div class="formline" id="lnorgreadaccess">
+                    <div class="longformcaption">Directory read access:</div>
+                    <div class="formfield">
+                        <input type="checkbox" id="orgreadaccess" name="orgreadaccess">
+                    </div>
+                </div>
+                
+                <div class="formline" id="lnuselocaldb">
+                    <div class="longformcaption">Use LocalDB:</div>
+                    <div class="formfield">
+                        <input type="checkbox" id="uselocaldb" name="uselocaldb">
+                    </div>
+                </div>
+
+                <div class="formline" id="lnnohttps">
+                    <div class="longformcaption">No https</div>
+                    <div class="formfield">
+                        <input type="checkbox" id="nohttps" name="uselocaldb">
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="footer" class="footer">
+                <button id="finishBtn" class="button" onclick="wizard.onFinish()">Finish</button>
+                <button id="cancelBtn" class="button" onclick="wizard.onCancel()">Cancel</button>
+            </div>
+        </div>
+
+    </body>
+</html>

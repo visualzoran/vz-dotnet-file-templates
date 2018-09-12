@@ -1,0 +1,22 @@
+{
+    "name" : "Interface",
+    "description" : "An empty interface definition.",
+    "defaultName" : "Interface.cs",
+    "sortOrder" : "1200",
+    "category" : ".NET/Code",
+    "iconLight" : "CSInterface_Light.svg",
+    "iconDark" : "CSInterface_Dark.svg",
+    "elements" : [
+        {
+            "fileName" : "file.txt",
+            "targetName" : "$itemname$.cs",
+            "replaceParameters" : true,
+            "open" : true
+        }        
+    ],
+    "isProject" : false,
+    "command" : "",
+    "commandParameters" : [],
+    "openFiles" : [],
+    "settingsProcessors" : ["vzFileTemplates.dotNet"]    
+}
