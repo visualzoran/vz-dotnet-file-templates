@@ -2,7 +2,7 @@
     "name": "vz-dotnet-file-templates",
     "displayName": "VZ DotNet File Templates",
     "description": ".NET C# file and projects templates and wizards for VZ File Templates extension",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "visualzoran",
     "engines": {
         "vscode": "^1.26.0"

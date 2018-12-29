@@ -13,27 +13,10 @@ export function activate(context: vscode.ExtensionContext) {
     if (filetemplatesExt) {
         if (!filetemplatesExt.isActive) {
             filetemplatesExt.activate().then((val) => {
-                let extApi : vzFileTemplates.IVZFileTemplatesApi = val;                
-                
-                //register wizards
-                //extApi.registerWizard(new MyHtmlWizard(context));
-                //register templates folders
-                extApi.registerTemplatesFolder(context.asAbsolutePath('templates'));
-                extApi.registerRunSettingsProcessor(new DotnetRunSettingsProcessor());
-                extApi.registerWizard(new AspNetCoreWizard(context));
+                initializeFileTemplates(context, val);                
             });
         } else {
-            let api : vzFileTemplates.IVZFileTemplatesApi = filetemplatesExt.exports; 
-            
-            //!!! Warning !!!
-            //!!! This code is copied from a few lines above !!!
-            //!!! It is a bad idea, please mobve it to a functions in real projects !!!
-            //register wizards
-            //api.registerWizard(new MyHtmlWizard(context));
-            //register templates folders
-            api.registerTemplatesFolder(context.asAbsolutePath('templates'));
-            api.registerRunSettingsProcessor(new DotnetRunSettingsProcessor());
-            api.registerWizard(new AspNetCoreWizard(context));
+            initializeFileTemplates(context, filetemplatesExt.exports);            
         }
     }
 
@@ -44,4 +27,10 @@ export function activate(context: vscode.ExtensionContext) {
 
 // this method is called when your extension is deactivated
 export function deactivate() {
+}
+
+function initializeFileTemplates(context : vscode.ExtensionContext, api : vzFileTemplates.IVZFileTemplatesApi) {
+    api.registerTemplatesFolder(context.asAbsolutePath('templates'));
+    api.registerRunSettingsProcessor(new DotnetRunSettingsProcessor());
+    api.registerWizard(new AspNetCoreWizard(context));
 }
